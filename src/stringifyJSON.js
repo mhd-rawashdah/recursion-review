@@ -22,5 +22,3 @@ var stringifyJSON = function(obj) {
   return '"' + arr[0] + '": ' + value + ', ' + stringifyJSON(obj);
  };
 
-
-// var 
